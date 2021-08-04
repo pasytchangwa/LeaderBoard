@@ -2,7 +2,18 @@
 import _ from 'lodash';
 /* eslint-enaable */
 import './style.css';
+import getData from './getdata';
 import generatorOfEl from './generator';
+
+const xhr = new XMLHttpRequest();
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6XXWCXn9VJxphtkrJMBV/scores/';
+
+const refresh = document.querySelector('.refresh');
+const submit = document.auerySelector('.submit-btn');
+const domList = document.querySelector('.score-list');
+const nameValue = document.querySelector('.name-input');
+const scoreValue = document.querySelector('.score-input');
+
 
 const header = generatorOfEl('header', 'header', null, null, null, null);
 const headerh1 = generatorOfEl('h1', null, null, 'leaderboard', null, null);
