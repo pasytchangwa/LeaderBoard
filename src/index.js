@@ -1,4 +1,6 @@
-// import _ from 'lodash';
+/*eslint-disable*/
+import _ from 'lodash';
+/* eslint-enaable */
 import './style.css';
 import generatorOfEl from './generator';
 
