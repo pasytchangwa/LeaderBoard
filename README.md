@@ -4,7 +4,7 @@
 
 [CLICK HERE](https://pasytchangwa.github.io/LeaderBoard/) for the online version
 
-# Leaderbord Project: Basic Page structure added
+# Leaderbord Project: Final version
 
 > In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
  
@@ -14,6 +14,12 @@
 - Use webpack to bundle JavaScript.
 
 Additional description about the project and its features.
+- Mobile version
+![image](https://user-images.githubusercontent.com/64914462/128352343-fba56afd-4e34-4581-913a-6393650d3b24.png)
+
+- Desktop version
+![image](https://user-images.githubusercontent.com/64914462/128352516-95ef3b29-0133-4866-ba47-bf2c1e1491ad.png)
+
 
 ## Built With
 
