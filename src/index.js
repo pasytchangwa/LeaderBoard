@@ -17,7 +17,7 @@ const form = document.querySelector('.add-scores');
 
 const scores = new GetData();
 
-function displayEl(object) {
+const displayEl = (object) => {
   object.forEach((obj) => {
     const li = generatorOfEl('li', 'score-item', null, null, null, null);
     const paragraph = generatorOfEl('p', null, null, `${obj.user}:`, null, null);
