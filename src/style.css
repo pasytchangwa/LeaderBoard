@@ -59,6 +59,9 @@ h1 {
 
 .score-list {
   width: 13.5rem;
+}
+
+.border-on {
   border: 3px solid black;
 }
 
