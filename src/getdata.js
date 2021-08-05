@@ -1,7 +1,7 @@
 const xhr = new XMLHttpRequest();
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6XXWCXn9VJxphtkrJMBV/scores/';
 
-export default class getData {
+export default class GetData {
   constructor() {
     this.scoreData = [];
   }

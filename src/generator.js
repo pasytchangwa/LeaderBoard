@@ -10,14 +10,3 @@ export default function generatorOfEl(
 
   return element;
 }
-export const requestURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6XXWCXn9VJxphtkrJMBV/scores/';
-export const getData = () => {
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', requestURL);
-  xhr.onreadystatechange = () => {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      console.log('hello');
-    } else console.log('hi');
-  };
-  xhr.send();
-};
