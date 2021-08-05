@@ -14,6 +14,7 @@ const domList = document.querySelector('.score-list');
 const nameValue = document.querySelector('.name-input');
 const scoreValue = document.querySelector('.score-input');
 const form = document.querySelector('.add-scores');
+const footerDate = document.querySelector('.date');
 
 const scores = new GetData();
 
@@ -46,3 +47,6 @@ form.addEventListener('submit', (ev) => {
   postData(nameValue, scoreValue);
   form.reset();
 })
+
+// footer date
+footerDate.innerHTML = new Date().getFullYear();
