@@ -61,7 +61,7 @@ h1 {
 .score-list {
   width: 13.5rem;
   overflow-y: scroll;
-  max-height: 18rem;
+  max-height: 19rem;
 }
 
 .border-on {
