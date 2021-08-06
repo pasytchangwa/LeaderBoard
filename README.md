@@ -2,7 +2,7 @@
 
 # Project online link
 
-[CLICK HERE](https://pasytchangwa.github.io/LeaderBoard/) for the online version
+[CLICK HERE](https://pasytchangwa.github.io/LeaderBoard/dist/) for the online version
 
 # Leaderbord Project: Final version
 
