@@ -34,19 +34,24 @@ const displayEl = (object) => {
   })
 }
 
-refresh.addEventListener('click', () => {
-  setTimeout(async () => {
+async function refreshing() {
     await scores.getScore();
     domList.innerHTML = '';
-   displayEl(scores.scoreData); 
- }, 50);
+    displayEl(scores.scoreData); 
+}
+
+refresh.addEventListener('click', () => {
+  setTimeout(refreshing, 10);
 });
 
 form.addEventListener('submit', (ev) => {
   ev.preventDefault();
   postData(nameValue, scoreValue);
+  refreshing();
   form.reset();
 })
 
 // footer date
 footerDate.innerHTML = new Date().getFullYear();
+
+refreshing();
